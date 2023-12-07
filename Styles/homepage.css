@@ -1,0 +1,33 @@
+body{
+    background-color: #FAF9F6;
+}
+.content{
+    max-width: 900px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    gap:10px;
+}
+.block{
+    text-align: center;
+    background-color: #d3d3d35a;
+    border-radius:25px;
+}
+.block > img{
+    width:85%;
+}
+.block:first-of-type{
+    grid-column: span 6;
+}
+.block:nth-of-type(2){
+    grid-column-start:8;
+    grid-column-end: 13;
+}
+.block:nth-of-type(3), .block:nth-of-type(4){
+    grid-column: span 6;
+}
+.blockLink{
+    text-decoration: none;
+    color: darkblue;
+}
