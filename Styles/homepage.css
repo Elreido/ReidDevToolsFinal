@@ -1,6 +1,8 @@
 body{
     background-color: #FAF9F6;
 }
+
+/*Formats the appearance of the central page aspect*/
 .content{
     max-width: 900px;
     margin:auto;
@@ -9,14 +11,17 @@ body{
     align-items: center;
     gap:10px;
 }
+/*Formats the appearance of the card like blocks*/
 .block{
     text-align: center;
     background-color: #d3d3d35a;
     border-radius:25px;
 }
+/*Formats the appearance of the images inside of the blocks*/
 .block > img{
     width:85%;
 }
+/*Specificaly target certain positions to certain blocks*/
 .block:first-of-type{
     grid-column: span 6;
 }
@@ -27,6 +32,7 @@ body{
 .block:nth-of-type(3), .block:nth-of-type(4){
     grid-column: span 6;
 }
+/*Format the block links*/
 .blockLink{
     text-decoration: none;
     color: darkblue;
