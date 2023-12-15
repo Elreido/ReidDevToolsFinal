@@ -1,11 +1,14 @@
+/*Format the body*/
 body{
     background-color: #eaeaea;
     margin-bottom:170px;
 }
+/*Header Format*/
 header{
     position:sticky;
     top:0;
 }
+/*Main Content Format*/
 .content{
     max-width: 900px;
     margin:auto;
@@ -14,17 +17,21 @@ header{
     background-color: #FAF9F6;
     padding: 5px 20px 5px 20px;
 }
+/*Apply margin between items inside of content*/
 .content > *{
     margin-bottom:10px;
 }
+/*Apply a height to the images inside of the content*/
 .content > img{
     border-radius: 25px;
     height:350px;
 }
+/*Apply css to the blocks*/
 .block{
     background-color: #d3d3d35a;
     border-radius:25px;
 }
+/*Make the footer look proper*/
 .footer{
     display:grid;
     position: fixed;
@@ -35,14 +42,17 @@ header{
     width:100vw;
     color: white;
 }
+/*Images on the footer*/
 .footerImg{
     justify-self: start;
     grid-row:span 5;
     max-height:150px;
 }
+/*Makes second image stay on the far left*/
 .footerImg:nth-of-type(2){
     justify-self: end;
 }
+/*Footer Text*/
 .footerText{
     grid-row:span 4;
     text-align: center;
